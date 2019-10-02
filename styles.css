@@ -1,0 +1,84 @@
+html{
+    background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/cW5lDBG/3d-numbers-background_spd6b89i__F0000.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background-color: transparent;
+}
+
+.contain-head {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#guessesTracker li {
+    list-style: none;
+    list-style-type: none;
+    font-size: 3vw;
+}
+
+.row-input {
+    text-align: center;
+}
+
+.card {
+    border-radius: 4%;
+}
+
+.card-header {
+    text-align: center;
+    font: bold;
+    color: #4f4d4d;
+}
+
+#prompt {
+    font-size: 4vw;
+    font: bold;
+    color: #fc7232;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px; 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+.row-output {
+    text-align: center;
+    height: 24vw;
+    max-width: 90%;
+}
+
+
+.row-output ul li {
+    padding-left: 3rem;
+    padding-top: .3rem;
+}
+
+input {
+    margin-top: .5rem;
+    width: 90%;
+    border-color: #fc7232;
+    border-width: .3rem;
+    font-size: 4vw;
+    text-align: center;
+}
+
+button {
+    width: 90%;
+    margin-top: .5rem;   
+    font-size: 4vw;
+    background-color: #fc7232;
+    border-width: .3rem;
+    border-color: #fc7232;
+    color: #6b6563;
+    font-weight: 900;
+    letter-spacing: .4rem;
+}
